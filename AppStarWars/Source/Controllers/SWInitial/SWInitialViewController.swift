@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SWInitialViewController.swift
 //  AppStarWars
 //
 //  Created by Rogerio Martins on 26/08/23.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SWInitialViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .blue
     }
-
-
 }
 
