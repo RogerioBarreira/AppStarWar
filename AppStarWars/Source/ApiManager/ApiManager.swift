@@ -12,6 +12,7 @@ enum CustomError: Error {
     case invalidData
     case erroResponse
     case erroStatusCode(Int)
+    case genericServerError(Int)
 }
 
 class ApiManager: NSObject {
@@ -43,12 +44,12 @@ class ApiManager: NSObject {
                         return
                     }
                     do {
-                        let jsonData = try JSONDecoder().decode(expecting.self, from: data)
+                        let objeto = try JSONDecoder().decode(expecting.self, from: data)
                         DispatchQueue.main.async {
-                            completion(.success(jsonData))
+                            completion(.success(objeto))
                         }
                     } catch {
-                        completion(.failure(error.localizedDescription as! Error))
+                        completion(.failure(error))
                     }
                 } else {
                     completion(.failure(CustomError.erroStatusCode(response.statusCode)))
