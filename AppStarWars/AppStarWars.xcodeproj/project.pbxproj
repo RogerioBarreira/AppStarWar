@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62B69742A9E7314001851D4 /* DSM in Frameworks */ = {isa = PBXBuildFile; productRef = B62B69732A9E7314001851D4 /* DSM */; };
 		B63C46C22A9BDE8900681AF9 /* SWPlanetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C46C12A9BDE8900681AF9 /* SWPlanetsViewModel.swift */; };
 		B67D0EC52A9BBEEB009B307C /* SWPlanets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0EC42A9BBEEB009B307C /* SWPlanets.swift */; };
 		B67D0EC72A9BBF3D009B307C /* SWPlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0EC62A9BBF3D009B307C /* SWPlanetsViewController.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62B69712A9E7300001851D4 /* DSM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSM; path = ../../../DSM; sourceTree = "<group>"; };
 		B63C46C12A9BDE8900681AF9 /* SWPlanetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsViewModel.swift; sourceTree = "<group>"; };
 		B67D0EC42A9BBEEB009B307C /* SWPlanets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanets.swift; sourceTree = "<group>"; };
 		B67D0EC62A9BBF3D009B307C /* SWPlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsViewController.swift; sourceTree = "<group>"; };
@@ -103,12 +105,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62B69742A9E7314001851D4 /* DSM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B62B69702A9E7300001851D4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B62B69712A9E7300001851D4 /* DSM */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B62B69722A9E7314001851D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B67D0EBF2A9BBEB4009B307C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,9 +337,11 @@
 		B694EE842A9A4C3000F51734 = {
 			isa = PBXGroup;
 			children = (
+				B62B69702A9E7300001851D4 /* Packages */,
 				B694EE8F2A9A4C3000F51734 /* AppStarWars */,
 				B694EEA42A9A4D2100F51734 /* Source */,
 				B694EE8E2A9A4C3000F51734 /* Products */,
+				B62B69722A9E7314001851D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -639,6 +659,9 @@
 			dependencies = (
 			);
 			name = AppStarWars;
+			packageProductDependencies = (
+				B62B69732A9E7314001851D4 /* DSM */,
+			);
 			productName = AppStarWars;
 			productReference = B694EE8D2A9A4C3000F51734 /* AppStarWars.app */;
 			productType = "com.apple.product-type.application";
@@ -942,6 +965,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B62B69732A9E7314001851D4 /* DSM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DSM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B694EE852A9A4C3000F51734 /* Project object */;
 }

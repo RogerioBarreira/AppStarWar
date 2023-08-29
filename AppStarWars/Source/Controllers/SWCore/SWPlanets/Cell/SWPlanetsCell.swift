@@ -6,10 +6,9 @@
 //
 
 import UIKit
+import DSM
 
 class SWPlanetsCell: UITableViewCell {
-    
-    
     
     var loading: UIActivityIndicatorView = {
         let load = UIActivityIndicatorView()
@@ -25,12 +24,12 @@ class SWPlanetsCell: UITableViewCell {
     let backGroundCell: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .white
+        view.backgroundColor = .black
         view.layer.cornerRadius = 15
-        view.layer.shadowColor = UIColor.yellow.cgColor
-        view.layer.shadowOpacity = 0.5
-        view.layer.shadowOffset = CGSize(width: 3, height: 5)
-        view.layer.shadowRadius = 3
+        view.layer.shadowColor = DSMColor.backGroundCell.cgColor
+        view.layer.shadowOpacity = 1
+        view.layer.shadowOffset = CGSize(width: 2, height: 5)
+        view.layer.shadowRadius = 1
         return view
     }()
     
@@ -41,7 +40,7 @@ class SWPlanetsCell: UITableViewCell {
         label.adjustsFontSizeToFitWidth = true
         label.minimumScaleFactor = 0.5
         label.textAlignment = .center
-        label.textColor = .black
+        label.textColor = .white
         return label
     }()
 
