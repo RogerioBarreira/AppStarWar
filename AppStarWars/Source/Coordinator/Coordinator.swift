@@ -23,4 +23,44 @@ class Coordinator {
         let vc = SWInitialViewController()
         self.navigationController.pushViewController(vc, animated: true)
     }
+    
+    func startSWHome() {
+        let vc = SWHomeViewController()
+        self.navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func startSWPeople() {
+        let vc = SWPeopleViewController()
+        self.navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func startSWPlanets() {
+        let vc = SWPlanetsViewController()
+        self.navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func startSWPlanetsSearch() {
+        let vc = SWPlanetsSearchViewController()
+        self.navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func startSWFilms() {
+        let vc = SWFilmsViewController()
+        self.navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func startSWSpecies() {
+        let vc = SWSpeciesViewController()
+        self.navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func startSWVehicles() {
+        let vc = SWVehiclesViewController()
+        self.navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func startSWStarships() {
+        let vc = SWStarshipsViewController()
+        self.navigationController.pushViewController(vc, animated: true)
+    }
 }

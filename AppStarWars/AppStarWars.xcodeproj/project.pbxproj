@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63C46C22A9BDE8900681AF9 /* SWPlanetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C46C12A9BDE8900681AF9 /* SWPlanetsViewModel.swift */; };
+		B67D0EC52A9BBEEB009B307C /* SWPlanets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0EC42A9BBEEB009B307C /* SWPlanets.swift */; };
+		B67D0EC72A9BBF3D009B307C /* SWPlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0EC62A9BBF3D009B307C /* SWPlanetsViewController.swift */; };
+		B67D0EC92A9BBF51009B307C /* SWPlanetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0EC82A9BBF51009B307C /* SWPlanetsView.swift */; };
+		B67D0ECB2A9BCA04009B307C /* SWPlanetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0ECA2A9BCA04009B307C /* SWPlanetsCell.swift */; };
+		B67D0ED32A9BD220009B307C /* SWPlanetsSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0ED22A9BD220009B307C /* SWPlanetsSearchView.swift */; };
+		B67D0ED52A9BD254009B307C /* SWPlanetsSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0ED42A9BD254009B307C /* SWPlanetsSearchViewController.swift */; };
+		B67D0ED72A9BD3B3009B307C /* SWPlanetsSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D0ED62A9BD3B3009B307C /* SWPlanetsSearchViewModel.swift */; };
+		B68D68EF2A9CF42C00B1FAC8 /* SWSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D68EE2A9CF42C00B1FAC8 /* SWSpecies.swift */; };
+		B68D68F12A9CF48200B1FAC8 /* SWSpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D68F02A9CF48200B1FAC8 /* SWSpeciesView.swift */; };
+		B68D68F32A9CF4AF00B1FAC8 /* SWSpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D68F22A9CF4AF00B1FAC8 /* SWSpeciesViewController.swift */; };
+		B68D68F52A9CF53500B1FAC8 /* SWFilmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D68F42A9CF53500B1FAC8 /* SWFilmsView.swift */; };
+		B68D68F72A9CF56300B1FAC8 /* SWFilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D68F62A9CF56200B1FAC8 /* SWFilmsViewController.swift */; };
+		B68D68FE2A9CF68300B1FAC8 /* SWVehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D68FD2A9CF68300B1FAC8 /* SWVehicles.swift */; };
+		B68D69002A9CF75400B1FAC8 /* SWVehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D68FF2A9CF75400B1FAC8 /* SWVehiclesView.swift */; };
+		B68D69022A9CF78700B1FAC8 /* SWVehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D69012A9CF78700B1FAC8 /* SWVehiclesViewController.swift */; };
+		B68D69042A9CF81100B1FAC8 /* SWVehiclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D69032A9CF81100B1FAC8 /* SWVehiclesViewModel.swift */; };
+		B68D69062A9CF83700B1FAC8 /* SWSpeciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D69052A9CF83700B1FAC8 /* SWSpeciesViewModel.swift */; };
+		B68D69082A9CF86F00B1FAC8 /* SWFilmsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D69072A9CF86F00B1FAC8 /* SWFilmsViewModel.swift */; };
+		B68D690F2A9CF94000B1FAC8 /* SWStarships.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D690E2A9CF94000B1FAC8 /* SWStarships.swift */; };
+		B68D69112A9CF96F00B1FAC8 /* SWStarshipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D69102A9CF96F00B1FAC8 /* SWStarshipsView.swift */; };
+		B68D69132A9CF99D00B1FAC8 /* SWStarshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D69122A9CF99D00B1FAC8 /* SWStarshipsViewController.swift */; };
+		B68D69152A9CF9F600B1FAC8 /* SWStarshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D69142A9CF9F600B1FAC8 /* SWStarshipsViewModel.swift */; };
 		B694EE912A9A4C3000F51734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EE902A9A4C3000F51734 /* AppDelegate.swift */; };
 		B694EE932A9A4C3000F51734 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EE922A9A4C3000F51734 /* SceneDelegate.swift */; };
 		B694EE952A9A4C3000F51734 /* SWInitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EE942A9A4C3000F51734 /* SWInitialViewController.swift */; };
@@ -14,9 +37,44 @@
 		B694EE9D2A9A4C3100F51734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694EE9B2A9A4C3100F51734 /* LaunchScreen.storyboard */; };
 		B694EEA72A9A4D4700F51734 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EEA62A9A4D4700F51734 /* ApiManager.swift */; };
 		B694EEAA2A9A4D8500F51734 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EEA92A9A4D8500F51734 /* Coordinator.swift */; };
+		B694EEAF2A9A50EF00F51734 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EEAE2A9A50EF00F51734 /* ApiService.swift */; };
+		B694EEB32A9A571D00F51734 /* SWInitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EEB22A9A571D00F51734 /* SWInitialView.swift */; };
+		B694EEB62A9A58B200F51734 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EEB52A9A58B200F51734 /* Extensions.swift */; };
+		B694EEBB2A9A5B8C00F51734 /* SWHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EEBA2A9A5B8C00F51734 /* SWHomeViewController.swift */; };
+		B694EEBD2A9A5BB300F51734 /* SWHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EEBC2A9A5BB300F51734 /* SWHomeView.swift */; };
+		B694EEC02A9A5E6200F51734 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EEBF2A9A5E6200F51734 /* Worker.swift */; };
+		B694EECE2A9A5FE500F51734 /* SWPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EECD2A9A5FE500F51734 /* SWPeopleViewController.swift */; };
+		B694EED02A9A625E00F51734 /* SWPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EECF2A9A625E00F51734 /* SWPeopleView.swift */; };
+		B694EED22A9A6A0100F51734 /* SWPeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EED12A9A6A0100F51734 /* SWPeopleCell.swift */; };
+		B694EED42A9A8CA500F51734 /* SWPeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EED32A9A8CA500F51734 /* SWPeopleViewModel.swift */; };
+		B694EED62A9A8D3A00F51734 /* SWPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694EED52A9A8D3A00F51734 /* SWPeople.swift */; };
+		B6A4D3572A9C1BA7000F9773 /* SWFims.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4D3562A9C1BA7000F9773 /* SWFims.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B63C46C12A9BDE8900681AF9 /* SWPlanetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsViewModel.swift; sourceTree = "<group>"; };
+		B67D0EC42A9BBEEB009B307C /* SWPlanets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanets.swift; sourceTree = "<group>"; };
+		B67D0EC62A9BBF3D009B307C /* SWPlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsViewController.swift; sourceTree = "<group>"; };
+		B67D0EC82A9BBF51009B307C /* SWPlanetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsView.swift; sourceTree = "<group>"; };
+		B67D0ECA2A9BCA04009B307C /* SWPlanetsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsCell.swift; sourceTree = "<group>"; };
+		B67D0ED22A9BD220009B307C /* SWPlanetsSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsSearchView.swift; sourceTree = "<group>"; };
+		B67D0ED42A9BD254009B307C /* SWPlanetsSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsSearchViewController.swift; sourceTree = "<group>"; };
+		B67D0ED62A9BD3B3009B307C /* SWPlanetsSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetsSearchViewModel.swift; sourceTree = "<group>"; };
+		B68D68EE2A9CF42C00B1FAC8 /* SWSpecies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWSpecies.swift; sourceTree = "<group>"; };
+		B68D68F02A9CF48200B1FAC8 /* SWSpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWSpeciesView.swift; sourceTree = "<group>"; };
+		B68D68F22A9CF4AF00B1FAC8 /* SWSpeciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWSpeciesViewController.swift; sourceTree = "<group>"; };
+		B68D68F42A9CF53500B1FAC8 /* SWFilmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWFilmsView.swift; sourceTree = "<group>"; };
+		B68D68F62A9CF56200B1FAC8 /* SWFilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWFilmsViewController.swift; sourceTree = "<group>"; };
+		B68D68FD2A9CF68300B1FAC8 /* SWVehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWVehicles.swift; sourceTree = "<group>"; };
+		B68D68FF2A9CF75400B1FAC8 /* SWVehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWVehiclesView.swift; sourceTree = "<group>"; };
+		B68D69012A9CF78700B1FAC8 /* SWVehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWVehiclesViewController.swift; sourceTree = "<group>"; };
+		B68D69032A9CF81100B1FAC8 /* SWVehiclesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWVehiclesViewModel.swift; sourceTree = "<group>"; };
+		B68D69052A9CF83700B1FAC8 /* SWSpeciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWSpeciesViewModel.swift; sourceTree = "<group>"; };
+		B68D69072A9CF86F00B1FAC8 /* SWFilmsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWFilmsViewModel.swift; sourceTree = "<group>"; };
+		B68D690E2A9CF94000B1FAC8 /* SWStarships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWStarships.swift; sourceTree = "<group>"; };
+		B68D69102A9CF96F00B1FAC8 /* SWStarshipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWStarshipsView.swift; sourceTree = "<group>"; };
+		B68D69122A9CF99D00B1FAC8 /* SWStarshipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWStarshipsViewController.swift; sourceTree = "<group>"; };
+		B68D69142A9CF9F600B1FAC8 /* SWStarshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWStarshipsViewModel.swift; sourceTree = "<group>"; };
 		B694EE8D2A9A4C3000F51734 /* AppStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B694EE902A9A4C3000F51734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B694EE922A9A4C3000F51734 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +84,18 @@
 		B694EE9E2A9A4C3100F51734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B694EEA62A9A4D4700F51734 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		B694EEA92A9A4D8500F51734 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B694EEAE2A9A50EF00F51734 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		B694EEB22A9A571D00F51734 /* SWInitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWInitialView.swift; sourceTree = "<group>"; };
+		B694EEB52A9A58B200F51734 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B694EEBA2A9A5B8C00F51734 /* SWHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWHomeViewController.swift; sourceTree = "<group>"; };
+		B694EEBC2A9A5BB300F51734 /* SWHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWHomeView.swift; sourceTree = "<group>"; };
+		B694EEBF2A9A5E6200F51734 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		B694EECD2A9A5FE500F51734 /* SWPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeopleViewController.swift; sourceTree = "<group>"; };
+		B694EECF2A9A625E00F51734 /* SWPeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeopleView.swift; sourceTree = "<group>"; };
+		B694EED12A9A6A0100F51734 /* SWPeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeopleCell.swift; sourceTree = "<group>"; };
+		B694EED32A9A8CA500F51734 /* SWPeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeopleViewModel.swift; sourceTree = "<group>"; };
+		B694EED52A9A8D3A00F51734 /* SWPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeople.swift; sourceTree = "<group>"; };
+		B6A4D3562A9C1BA7000F9773 /* SWFims.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWFims.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +109,213 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B67D0EBF2A9BBEB4009B307C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B63C46C12A9BDE8900681AF9 /* SWPlanetsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B67D0EC02A9BBEC2009B307C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B67D0EC82A9BBF51009B307C /* SWPlanetsView.swift */,
+				B67D0EC62A9BBF3D009B307C /* SWPlanetsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B67D0EC12A9BBEC4009B307C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B67D0EC42A9BBEEB009B307C /* SWPlanets.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B67D0EC22A9BBEC7009B307C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B67D0ECA2A9BCA04009B307C /* SWPlanetsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B67D0EC32A9BBED2009B307C /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		B67D0ECC2A9BD1AF009B307C /* SWPlanetsSearch */ = {
+			isa = PBXGroup;
+			children = (
+				B67D0ED12A9BD1DF009B307C /* String */,
+				B67D0ED02A9BD1DC009B307C /* Cell */,
+				B67D0ECF2A9BD1DA009B307C /* Model */,
+				B67D0ECE2A9BD1D7009B307C /* View */,
+				B67D0ECD2A9BD1C7009B307C /* ViewModel */,
+			);
+			path = SWPlanetsSearch;
+			sourceTree = "<group>";
+		};
+		B67D0ECD2A9BD1C7009B307C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B67D0ED62A9BD3B3009B307C /* SWPlanetsSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B67D0ECE2A9BD1D7009B307C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B67D0ED22A9BD220009B307C /* SWPlanetsSearchView.swift */,
+				B67D0ED42A9BD254009B307C /* SWPlanetsSearchViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B67D0ECF2A9BD1DA009B307C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B67D0ED02A9BD1DC009B307C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B67D0ED12A9BD1DF009B307C /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		B68D68E92A9CF40400B1FAC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B68D69052A9CF83700B1FAC8 /* SWSpeciesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B68D68EA2A9CF40700B1FAC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B68D68F02A9CF48200B1FAC8 /* SWSpeciesView.swift */,
+				B68D68F22A9CF4AF00B1FAC8 /* SWSpeciesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B68D68EB2A9CF40A00B1FAC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B68D68EE2A9CF42C00B1FAC8 /* SWSpecies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B68D68EC2A9CF40D00B1FAC8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B68D68ED2A9CF40F00B1FAC8 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		B68D68F82A9CF65700B1FAC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B68D69032A9CF81100B1FAC8 /* SWVehiclesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B68D68F92A9CF65A00B1FAC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B68D68FF2A9CF75400B1FAC8 /* SWVehiclesView.swift */,
+				B68D69012A9CF78700B1FAC8 /* SWVehiclesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B68D68FA2A9CF65D00B1FAC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B68D68FD2A9CF68300B1FAC8 /* SWVehicles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B68D68FB2A9CF65F00B1FAC8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B68D68FC2A9CF66200B1FAC8 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		B68D69092A9CF89A00B1FAC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B68D69142A9CF9F600B1FAC8 /* SWStarshipsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B68D690A2A9CF89D00B1FAC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B68D69102A9CF96F00B1FAC8 /* SWStarshipsView.swift */,
+				B68D69122A9CF99D00B1FAC8 /* SWStarshipsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B68D690B2A9CF8A000B1FAC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B68D690E2A9CF94000B1FAC8 /* SWStarships.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B68D690C2A9CF8A300B1FAC8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B68D690D2A9CF8A500B1FAC8 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
 		B694EE842A9A4C3000F51734 = {
 			isa = PBXGroup;
 			children = (
@@ -71,9 +348,11 @@
 		B694EEA42A9A4D2100F51734 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				B694EEAB2A9A4DDF00F51734 /* Controllers */,
-				B694EEA82A9A4D7300F51734 /* Coordinator */,
 				B694EEA52A9A4D3000F51734 /* ApiManager */,
+				B694EEA82A9A4D7300F51734 /* Coordinator */,
+				B694EEAB2A9A4DDF00F51734 /* Controllers */,
+				B694EEB42A9A589F00F51734 /* Extensions */,
+				B694EEBE2A9A5E5200F51734 /* Worker */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -82,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				B694EEA62A9A4D4700F51734 /* ApiManager.swift */,
+				B694EEAD2A9A50CF00F51734 /* ApiService */,
 			);
 			path = ApiManager;
 			sourceTree = "<group>";
@@ -98,6 +378,8 @@
 			isa = PBXGroup;
 			children = (
 				B694EEAC2A9A4DE700F51734 /* SWInitial */,
+				B694EEB72A9A59BA00F51734 /* SWHome */,
+				B694EEC12A9A5EA400F51734 /* SWCore */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,9 +387,240 @@
 		B694EEAC2A9A4DE700F51734 /* SWInitial */ = {
 			isa = PBXGroup;
 			children = (
-				B694EE942A9A4C3000F51734 /* SWInitialViewController.swift */,
+				B694EEB02A9A56F900F51734 /* String */,
+				B694EEB12A9A570600F51734 /* View */,
 			);
 			path = SWInitial;
+			sourceTree = "<group>";
+		};
+		B694EEAD2A9A50CF00F51734 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				B694EEAE2A9A50EF00F51734 /* ApiService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		B694EEB02A9A56F900F51734 /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		B694EEB12A9A570600F51734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B694EEB22A9A571D00F51734 /* SWInitialView.swift */,
+				B694EE942A9A4C3000F51734 /* SWInitialViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B694EEB42A9A589F00F51734 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B694EEB52A9A58B200F51734 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B694EEB72A9A59BA00F51734 /* SWHome */ = {
+			isa = PBXGroup;
+			children = (
+				B694EEB92A9A59CD00F51734 /* Strings */,
+				B694EEB82A9A59CA00F51734 /* View */,
+			);
+			path = SWHome;
+			sourceTree = "<group>";
+		};
+		B694EEB82A9A59CA00F51734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B694EEBC2A9A5BB300F51734 /* SWHomeView.swift */,
+				B694EEBA2A9A5B8C00F51734 /* SWHomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B694EEB92A9A59CD00F51734 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		B694EEBE2A9A5E5200F51734 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				B694EEBF2A9A5E6200F51734 /* Worker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		B694EEC12A9A5EA400F51734 /* SWCore */ = {
+			isa = PBXGroup;
+			children = (
+				B67D0ECC2A9BD1AF009B307C /* SWPlanetsSearch */,
+				B694EEC72A9A5F5C00F51734 /* SWPeople */,
+				B694EEC62A9A5F5900F51734 /* SWPlanets */,
+				B694EEC52A9A5F5500F51734 /* SWFilms */,
+				B694EEC42A9A5F5200F51734 /* SWSpecies */,
+				B694EEC32A9A5F4F00F51734 /* SWVehicles */,
+				B694EEC22A9A5F4500F51734 /* SWStarships */,
+			);
+			path = SWCore;
+			sourceTree = "<group>";
+		};
+		B694EEC22A9A5F4500F51734 /* SWStarships */ = {
+			isa = PBXGroup;
+			children = (
+				B68D690D2A9CF8A500B1FAC8 /* Strings */,
+				B68D690C2A9CF8A300B1FAC8 /* Cell */,
+				B68D690B2A9CF8A000B1FAC8 /* Model */,
+				B68D690A2A9CF89D00B1FAC8 /* View */,
+				B68D69092A9CF89A00B1FAC8 /* ViewModel */,
+			);
+			path = SWStarships;
+			sourceTree = "<group>";
+		};
+		B694EEC32A9A5F4F00F51734 /* SWVehicles */ = {
+			isa = PBXGroup;
+			children = (
+				B68D68FC2A9CF66200B1FAC8 /* Strings */,
+				B68D68FB2A9CF65F00B1FAC8 /* Cell */,
+				B68D68FA2A9CF65D00B1FAC8 /* Model */,
+				B68D68F92A9CF65A00B1FAC8 /* View */,
+				B68D68F82A9CF65700B1FAC8 /* ViewModel */,
+			);
+			path = SWVehicles;
+			sourceTree = "<group>";
+		};
+		B694EEC42A9A5F5200F51734 /* SWSpecies */ = {
+			isa = PBXGroup;
+			children = (
+				B68D68ED2A9CF40F00B1FAC8 /* Strings */,
+				B68D68EC2A9CF40D00B1FAC8 /* Cell */,
+				B68D68EB2A9CF40A00B1FAC8 /* Model */,
+				B68D68EA2A9CF40700B1FAC8 /* View */,
+				B68D68E92A9CF40400B1FAC8 /* ViewModel */,
+			);
+			path = SWSpecies;
+			sourceTree = "<group>";
+		};
+		B694EEC52A9A5F5500F51734 /* SWFilms */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4D3552A9C1B82000F9773 /* Strings */,
+				B6A4D3542A9C1B7F000F9773 /* Cell */,
+				B6A4D3532A9C1B7D000F9773 /* Model */,
+				B6A4D3522A9C1B7A000F9773 /* View */,
+				B6A4D3512A9C1B77000F9773 /* ViewModel */,
+			);
+			path = SWFilms;
+			sourceTree = "<group>";
+		};
+		B694EEC62A9A5F5900F51734 /* SWPlanets */ = {
+			isa = PBXGroup;
+			children = (
+				B67D0EC32A9BBED2009B307C /* Strings */,
+				B67D0EC22A9BBEC7009B307C /* Cell */,
+				B67D0EC12A9BBEC4009B307C /* Model */,
+				B67D0EC02A9BBEC2009B307C /* View */,
+				B67D0EBF2A9BBEB4009B307C /* ViewModel */,
+			);
+			path = SWPlanets;
+			sourceTree = "<group>";
+		};
+		B694EEC72A9A5F5C00F51734 /* SWPeople */ = {
+			isa = PBXGroup;
+			children = (
+				B694EECC2A9A5FB300F51734 /* Strings */,
+				B694EECB2A9A5FAB00F51734 /* Cell */,
+				B694EECA2A9A5FA800F51734 /* Model */,
+				B694EEC92A9A5FA400F51734 /* View */,
+				B694EEC82A9A5FA100F51734 /* ViewModel */,
+			);
+			path = SWPeople;
+			sourceTree = "<group>";
+		};
+		B694EEC82A9A5FA100F51734 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B694EED32A9A8CA500F51734 /* SWPeopleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B694EEC92A9A5FA400F51734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B694EECF2A9A625E00F51734 /* SWPeopleView.swift */,
+				B694EECD2A9A5FE500F51734 /* SWPeopleViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B694EECA2A9A5FA800F51734 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B694EED52A9A8D3A00F51734 /* SWPeople.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B694EECB2A9A5FAB00F51734 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B694EED12A9A6A0100F51734 /* SWPeopleCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B694EECC2A9A5FB300F51734 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		B6A4D3512A9C1B77000F9773 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B68D69072A9CF86F00B1FAC8 /* SWFilmsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B6A4D3522A9C1B7A000F9773 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B68D68F42A9CF53500B1FAC8 /* SWFilmsView.swift */,
+				B68D68F62A9CF56200B1FAC8 /* SWFilmsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6A4D3532A9C1B7D000F9773 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4D3562A9C1BA7000F9773 /* SWFims.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6A4D3542A9C1B7F000F9773 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B6A4D3552A9C1B82000F9773 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +694,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				B694EEA72A9A4D4700F51734 /* ApiManager.swift in Sources */,
+				B694EEBD2A9A5BB300F51734 /* SWHomeView.swift in Sources */,
+				B68D68F72A9CF56300B1FAC8 /* SWFilmsViewController.swift in Sources */,
+				B68D69042A9CF81100B1FAC8 /* SWVehiclesViewModel.swift in Sources */,
+				B67D0EC52A9BBEEB009B307C /* SWPlanets.swift in Sources */,
+				B694EED02A9A625E00F51734 /* SWPeopleView.swift in Sources */,
+				B68D68EF2A9CF42C00B1FAC8 /* SWSpecies.swift in Sources */,
+				B68D68F12A9CF48200B1FAC8 /* SWSpeciesView.swift in Sources */,
+				B68D69002A9CF75400B1FAC8 /* SWVehiclesView.swift in Sources */,
 				B694EE952A9A4C3000F51734 /* SWInitialViewController.swift in Sources */,
+				B694EEAF2A9A50EF00F51734 /* ApiService.swift in Sources */,
+				B68D690F2A9CF94000B1FAC8 /* SWStarships.swift in Sources */,
+				B694EEB62A9A58B200F51734 /* Extensions.swift in Sources */,
+				B694EECE2A9A5FE500F51734 /* SWPeopleViewController.swift in Sources */,
+				B68D69112A9CF96F00B1FAC8 /* SWStarshipsView.swift in Sources */,
+				B63C46C22A9BDE8900681AF9 /* SWPlanetsViewModel.swift in Sources */,
+				B68D69062A9CF83700B1FAC8 /* SWSpeciesViewModel.swift in Sources */,
+				B68D69022A9CF78700B1FAC8 /* SWVehiclesViewController.swift in Sources */,
+				B68D69132A9CF99D00B1FAC8 /* SWStarshipsViewController.swift in Sources */,
+				B694EEBB2A9A5B8C00F51734 /* SWHomeViewController.swift in Sources */,
+				B694EED62A9A8D3A00F51734 /* SWPeople.swift in Sources */,
+				B6A4D3572A9C1BA7000F9773 /* SWFims.swift in Sources */,
+				B694EED22A9A6A0100F51734 /* SWPeopleCell.swift in Sources */,
+				B67D0ECB2A9BCA04009B307C /* SWPlanetsCell.swift in Sources */,
+				B67D0ED52A9BD254009B307C /* SWPlanetsSearchViewController.swift in Sources */,
+				B68D69082A9CF86F00B1FAC8 /* SWFilmsViewModel.swift in Sources */,
+				B68D68F52A9CF53500B1FAC8 /* SWFilmsView.swift in Sources */,
 				B694EEAA2A9A4D8500F51734 /* Coordinator.swift in Sources */,
+				B694EEB32A9A571D00F51734 /* SWInitialView.swift in Sources */,
 				B694EE912A9A4C3000F51734 /* AppDelegate.swift in Sources */,
+				B67D0ED72A9BD3B3009B307C /* SWPlanetsSearchViewModel.swift in Sources */,
+				B68D69152A9CF9F600B1FAC8 /* SWStarshipsViewModel.swift in Sources */,
+				B68D68F32A9CF4AF00B1FAC8 /* SWSpeciesViewController.swift in Sources */,
+				B67D0EC72A9BBF3D009B307C /* SWPlanetsViewController.swift in Sources */,
+				B694EED42A9A8CA500F51734 /* SWPeopleViewModel.swift in Sources */,
+				B694EEC02A9A5E6200F51734 /* Worker.swift in Sources */,
+				B67D0EC92A9BBF51009B307C /* SWPlanetsView.swift in Sources */,
+				B67D0ED32A9BD220009B307C /* SWPlanetsSearchView.swift in Sources */,
+				B68D68FE2A9CF68300B1FAC8 /* SWVehicles.swift in Sources */,
 				B694EE932A9A4C3000F51734 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,7 +878,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,7 +906,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
